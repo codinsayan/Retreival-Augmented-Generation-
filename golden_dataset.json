@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is the grace period for premium payment?",
+    "ground_truth_answer": "A grace period of thirty days is provided for premium payment after the due date.",
+    "ground_truth_context": "Grace Period: A grace period of thirty days is provided for premium payment after the due date to renew/continue the policy without loss in continuity benefits such as waiting periods and coverage of pre-existing diseases. Coverage is not available for the period for which no premium is received."
+  },
+  {
+    "question": "What is the waiting period for pre-existing diseases?",
+    "ground_truth_answer": "There is a waiting period of thirty-six (36) months of continuous coverage from the first policy inception for pre-existing diseases to be covered.",
+    "ground_truth_context": "Code - Excl01 Pre-existing Diseases: a. Expenses related to the treatment of a pre-existing disease (PED) and its direct complications shall be excluded until the expiry of thirty-six (36) months of continuous coverage after the date of inception of the first policy with the insurer."
+  },
+  {
+    "question": "Does this policy cover maternity expenses?",
+    "ground_truth_answer": "Yes, the policy covers maternity expenses after a waiting period of 24 months of continuous coverage. The benefit is limited to two deliveries or terminations.",
+    "ground_truth_context": "Maternity Expenses: The Company shall indemnify the Insured Person for Maternity Expenses, subject to the sub-limit specified in the Table of Benefits, provided that the female Insured Person has been covered under this Policy for a continuous period of twenty-four (24) months without any break from the date of her first Policy. The benefit is limited to two (2) deliveries or lawful medical termination of pregnancy during the lifetime of the Insured Person."
+  },
+  {
+    "question": "What is the waiting period for cataract surgery?",
+    "ground_truth_answer": "The policy has a specific waiting period of two (2) years for cataract surgery.",
+    "ground_truth_context": "Code - Excl02 Specified disease/procedure waiting period: a. Expenses related to the treatment of the listed Conditions, surgeries/treatments shall be excluded until the expiry of twenty-four (24) months of continuous coverage after the date of inception of the first policy with the insurer. This exclusion shall not be applicable for claims arising due to an accident. ... 11. Cataract"
+  },
+  {
+    "question": "Are the medical expenses for an organ donor covered?",
+    "ground_truth_answer": "Yes, the policy covers the medical expenses for an organ donor's hospitalization for the purpose of harvesting the organ, provided the organ is for an insured person.",
+    "ground_truth_context": "Organ Donor: The Company shall indemnify the medical expenses for an organ donor’s in-patient hospitalization for the harvesting of the organ donated, provided that: a. The organ donor is any person whose organ has been donated in accordance with the Transplantation of Human Organs Act, 1994, and the organ donated is for the use of the Insured Person."
+  }
+]

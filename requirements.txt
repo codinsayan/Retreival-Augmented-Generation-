@@ -1,0 +1,24 @@
+# Core web framework
+fastapi
+uvicorn
+
+# PDF and Data Handling
+PyMuPDF
+pandas
+scikit-learn
+joblib
+lightgbm
+
+# Vector Database and Embeddings
+pinecone
+sentence-transformers
+torch
+rank_bm25 # <-- ADD THIS for sparse vectors
+
+# Google AI for Gemini
+google-generativeai
+
+# Utilities
+python-dotenv
+requests
+tqdm
