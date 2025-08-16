@@ -13,7 +13,7 @@ PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "rag-challenge-index")
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
-CROSS_ENCODER_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2" 
+CROSS_ENCODER_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L6-v2" 
 
 genai.configure(api_key=GEMINI_API_KEY)
 
@@ -56,9 +56,9 @@ Rewritten Query:
 
 # OPTIMIZED: Merged compression and answer generation into a single prompt
 ANSWER_PROMPT_TEMPLATE = """
-You are an expert assistant for a document query system. Your task is to answer the user's question based *only* on the provided context.
+You are an expert assistant for a document query system. Your task is to try to answer the user's question based on the provided context.
 Your answer must be concise and directly address the question, using only the most relevant sentences from the context.
-Do not use any external knowledge. If the context does not contain the answer, you must state that you don't have enough information.
+Do not use any external knowledge. But use your common sense. If the context does not contain the answer, you must state that you don't have enough information.
 
 CONTEXT:
 ---

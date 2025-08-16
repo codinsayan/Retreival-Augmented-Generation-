@@ -8,7 +8,7 @@ pandas
 scikit-learn
 joblib
 lightgbm
-
+nltk # <-- ADD THIS for sentence splitting
 # Vector Database and Embeddings
 pinecone
 sentence-transformers
