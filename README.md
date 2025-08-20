@@ -6,6 +6,9 @@ This project is a high-performance solution for the **LLM-Powered Intelligent Qu
 
 Our solution implements a sophisticated, multi-stage **Retrieval-Augmented Generation (RAG)** pipeline. This architecture goes far beyond simple keyword matching, leveraging multiple layers of AI-driven refinement to find the most precise information and generate factually grounded, relevant answers. Through rigorous testing with our evaluation framework, this system has demonstrated exceptional performance, achieving perfect scores across all key metrics.
 
+## **Demo Video**
+Link - [Video demo](https://drive.google.com/file/d/1KTeJNd1r49omuVpdbQEwRXpwIrxpvch1/view?usp=sharing)
+
 
 ## **Local Setup and Execution Guide**
 
